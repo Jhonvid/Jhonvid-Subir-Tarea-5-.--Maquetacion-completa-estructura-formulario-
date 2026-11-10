@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.negritas {
+  font-weight: bold;
+}
+
+.fondo {
+  background-color: #eeeeee;
+}
+
+.cabecera {
+  background-color: #f2f2f2;
+  font-size: 0;
+}
+
+.cont_logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18%;
+  text-align: center;
+}
+
+.cont_logo img {
+  width: 125px;
+  max-width: 100%;
+  height: auto;
+}
+
+.cont_formulario {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+  background-color: #ffffff;
+  padding: 14px 18px;
+  font-size: 15px;
+}
+
+.fila_formulario {
+  width: 100%;
+  font-size: 0;
+}
+
+.campo_nombre,
+.campo_email,
+.campo_sexo {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.campo_nombre {
+  width: 34%;
+}
+
+.campo_email {
+  width: 36%;
+}
+
+.campo_sexo {
+  width: 28%;
+}
+
+.campo_nombre label,
+.campo_email label {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.campo_nombre input,
+.campo_email input {
+  width: 61%;
+  height: 25px;
+  border: 1px solid #bbbbbb;
+  padding: 3px 5px;
+}
+
+.campo_sexo label {
+  margin-left: 3px;
+}
+
+.asterisco {
+  color: #5d0201;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.fila_fecha {
+  margin-top: 14px;
+}
+
+.fecha_nacimiento {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+  font-size: 14px;
+}
+
+.fecha_nacimiento label {
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.fecha_nacimiento select {
+  height: 26px;
+  margin-right: 3px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+.fecha_nacimiento select:first-of-type {
+  width: 52px;
+}
+
+.fecha_nacimiento select:nth-of-type(2) {
+  width: 100px;
+}
+
+.fecha_nacimiento select:nth-of-type(3) {
+  width: 68px;
+}
+
+.btn_enviar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 21%;
+  margin-left: 2%;
+  padding: 4px 12px;
+  border: 0;
+  border-radius: 14px;
+  background-color: #cc9900;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu {
+  background-color: #ffffff;
+  white-space: nowrap;
+}
+
+.menu a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 13.7%;
+  padding: 13px 0;
+  color: #333333;
+  text-decoration: none;
+  border-right: 1px solid #eeeeee;
+}
+
+.menu a:first-child {
+  background-color: #5d0201;
+  color: #ffffff;
+}
+
+.menu a:hover {
+  background-color: #5d0201;
+  color: #ffffff;
+}
+
+.imagen_principal img {
+  display: block;
+  width: 100%;
+  height: 315px;
+}
+
+.bloques {
+  padding: 20px 0 12px;
+  text-align: center;
+  font-size: 0;
+}
+
+.columna {
+  display: inline-block;
+  vertical-align: top;
+  width: 32.5%;
+  padding: 8px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.titulo_columna {
+  min-height: 70px;
+  white-space: nowrap;
+}
+
+.titulo_columna img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+
+.titulo_columna h2 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 73%;
+  color: #222222;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 27px;
+  white-space: normal;
+}
+
+.columna hr {
+  height: 2px;
+  border: 0;
+  background-color: #999999;
+  margin: 7px 0 16px;
+}
+
+.imagen_columna {
+  display: block;
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  margin-bottom: 22px;
+}
+
+.columna p {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.cont_instalaciones img {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  height: 112px;
+  margin: 0 1% 3px 0;
+  object-fit: cover;
+}
+
+.cont_instalaciones .foto_instalaciones_grande {
+  width: 98%;
+  height: 136px;
+}
+
+.perfil_y_campo {
+  padding: 2px 0 12px;
+  font-size: 0;
+}
+
+.perfil_contenido {
+  display: inline-block;
+  vertical-align: top;
+  width: 66%;
+  padding: 8px 12px 12px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.titulo_perfil {
+  margin-bottom: 10px;
+  color: #101518;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.requisito {
+  margin: 8px 0;
+}
+
+.requisito img {
+  display: inline-block;
+  vertical-align: top;
+  width: 18px;
+  height: 18px;
+  margin: 3px 10px 0 0;
+}
+
+.requisito p {
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.campo_trabajo {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  min-height: 275px;
+  margin: 14px 0 12px;
+  padding: 20px 17px;
+  border-radius: 15px;
+  background-color: #5d0201;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.campo_trabajo h2 {
+  margin-bottom: 15px;
+  color: #cc9900;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.campo_trabajo p {
+  text-align: justify;
+  line-height: 20px;
+}
+
+.btn_amarillo {
+  display: inline-block;
+  min-width: 155px;
+  margin-top: 24px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #cc9900;
+  color: #101518;
+  text-decoration: none;
+}
+
+.pie_pagina {
+  background-color: #101518;
+  color: #ffffff;
+  font-size: 0;
+}
+
+.pie_info,
+.mapa,
+.pie_alumno {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.pie_info {
+  width: 35%;
+  padding: 12px 8px 0 5px;
+  text-align: left;
+}
+
+.pie_info h3 {
+  margin-bottom: 14px;
+  color: #cc9900;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pie_info p {
+  margin-bottom: 14px;
+  line-height: 21px;
+}
+
+.pie_info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mapa {
+  width: 36%;
+}
+
+.mapa iframe {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border: 0;
+}
+
+.pie_alumno {
+  width: 27%;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.pie_alumno img {
+  width: 145px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.pie_alumno p {
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.linea_final {
+  height: 15px;
+  background-color: #5d0201;
+}
